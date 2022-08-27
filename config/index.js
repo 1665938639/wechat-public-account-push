@@ -3,7 +3,7 @@ export const config = {
     // 公众号appId
     appId: "wx3b774b44e1442047",
     // 公众号appSecret
-    appSecret: "e504ddf406d2e8d007443c17cda19070",
+    appSecret: "640271276ddfa4b401ddd08423253f66",
     // 模板消息id
     templateId: "RUNQTk8Kv3HyGYdEnBbnJVLVQg535CdtS-KvqdhwVFI",
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
@@ -17,7 +17,7 @@ export const config = {
     // 生日，修改名字为对应需要显示的名字，如果生日为农历， type为 
     birthdays: [
       {"name": "老婆", "year": "2001", "date": "10-25", "type": 'new'},
-      {"name": "家公", "year": "2002", "date": "12-24", "type": 'new'},
+      {"name": "老公", "year": "2002", "date": "12-24", "type": 'new'},
     ],
     // 在一起的日子，格式同上
     loveDate: "2021-09-25",
