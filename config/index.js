@@ -14,15 +14,15 @@ export const config = {
     province: "天津",
     // 所在城市
     city: "天津",
-    // 生日，修改名字为对应需要显示的名字，如果生日为农历， type为 
+    // 生日，修改名字为对应需要显示的名字，如果生日为农历， type为r 
     birthdays: [
-      {"name": "老婆", "year": "2001", "date": "10-25", "type": 'new'},
-      {"name": "老公", "year": "2002", "date": "12-24", "type": 'new'},
+      {"name": "老婆", "year": "2001", "date": "10-25", "type": 'r'},
+      {"name": "老公", "year": "2002", "date": "12-24", "type": 'r'},
     ],
     // 在一起的日子，格式同上
     loveDate: "2021-09-25",
     // 结婚纪念日
-    marryDate: "2020-01-04"
+    marryDate: "2021-09-25"
     }
 
 // {{date.DATA}}  
@@ -31,7 +31,7 @@ export const config = {
 // 最低气温: {{min_temperature.DATA}}  
 // 最高气温: {{max_temperature.DATA}}  
 // 今天是我们恋爱的第{{love_day.DATA}}天
-<!--// 今天是我们结婚的第{{marry_day.DATA}}天-->
+// 今天是我们结婚的第{{marry_day.DATA}}天
 // {{birthday_message.DATA}}
 
 // {{note_en.DATA}}  
